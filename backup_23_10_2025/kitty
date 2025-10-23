@@ -1,0 +1,46 @@
+include ~/.cache/wal/colors-kitty.conf
+
+
+# Font principale
+font_family      Ubuntu Sans Mono 
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# Dimensione font
+font_size 13.0
+
+# # Font principale (Italic di default)
+# font_family      UbuntuMono Nerd Font Mono Italic
+# bold_font        UbuntuMono Nerd Font Mono Bold Italic
+# italic_font      UbuntuMono Nerd Font Mono Italic
+# bold_italic_font UbuntuMono Nerd Font Mono Bold Italic
+#
+# font_size 13.0
+#
+
+
+
+# Trasparenza dello sfondo
+# background_opacity 0.85
+background_opacity 0.65 
+
+
+# Colore di sfondo (utile per gestire meglio la trasparenza)
+background #000000
+
+
+foreground #ffffff
+
+
+
+#
+
+
+#
+
+
+# zsh
+shell zsh
+
+
+
