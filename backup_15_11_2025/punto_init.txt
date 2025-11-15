@@ -1,0 +1,180 @@
+[colors]
+background = ${xrdb:color0:#1e1f29}
+foreground = ${xrdb:color7:#C5C8C6}
+primary = ${xrdb:color2:#BD93F9}
+secondary = ${xrdb:color4:#8ABEB7}
+alert = ${xrdb:color1:#A54242}
+disabled = ${xrdb:color8:#707880}
+
+[bar/main]
+monitor = DP-2
+width = 100%
+height = 26
+bottom = false
+radius = 0
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 2
+border-size = 0
+padding-left = 2
+padding-right = 2
+separator = |
+separator-foreground = ${colors.primary}
+font-0 = "JetBrainsMono Nerd Font:size=12;2"
+modules-left = xworkspaces now-playing
+modules-center = 
+modules-right = cpu memory localip volume datetime powermenu space
+enable-ipc = true
+cursor-click = pointer
+cursor-scroll = ns-resize
+module-margin = 2
+
+
+
+; [module/xworkspaces]
+; type = internal/xworkspaces
+; label-active = %name%
+; label-active-background = ${colors.background}
+; label-active-underline = ${colors.primary}
+; label-active-padding = 1
+; label-occupied = %name%
+; label-occupied-padding = 1
+; label-urgent = %name%
+; label-urgent-background = ${colors.alert}
+; label-urgent-padding = 1
+; label-empty = %name%
+; label-empty-foreground = ${colors.disabled}
+; label-empty-padding = 1
+
+; -------------------------------------
+;
+; [module/xworkspaces]
+; type = internal/xworkspaces
+;
+; label-active = %name%
+; label-active-background = ${colors.primary}      
+; label-active-foreground = ${colors.background}   
+; label-active-padding = 2
+;
+; label-occupied = %name%
+; label-occupied-padding = 2
+;
+; label-urgent = %name%
+; label-urgent-background = ${colors.alert}
+; label-urgent-padding = 2
+;
+; label-empty = %name%
+; label-empty-foreground = ${colors.disabled}
+; label-empty-padding = 2
+
+
+[module/xworkspaces]
+type = internal/xworkspaces
+label-active = %name%
+label-active-background = ${colors.background}
+label-active-underline = ${colors.primary}
+label-active-padding = 1
+label-occupied = %name%
+label-occupied-padding = 1
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+label-empty = %name%
+label-empty-foreground = ${colors.disabled}
+label-empty-padding = 1
+
+
+; -------------------------------
+
+; [module/datetime]
+; type = internal/date
+; interval = 1
+; date = %a %d %b
+; time = %H:%M:%S
+; format = <label>
+; label = %date% %time%
+; label-foreground = ${colors.primary}
+
+# [module/datetime]
+# type = internal/date
+# interval = 1
+# date = %d %b
+# time = %I:%M:%S %p
+# format = <label>
+# label = %date% %time%
+# label-foreground = ${colors.primary}
+
+[module/datetime]
+type = internal/date
+interval = 1
+date = %d %b
+time = %I:%M %p
+format = <label>
+label = %date% %time%
+label-foreground = ${colors.primary}
+
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "Cpu:"
+format-prefix-foreground = ${colors.secondary}
+label = %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "Ram: "
+format-prefix-foreground = ${colors.secondary}
+label = %percentage_used%%
+
+
+[module/powermenu]
+type = custom/menu
+label-open = "⏻ Power"
+label-close = "❌ Close"
+label-separator = " | "
+
+menu-0-0 =  Shutdown
+menu-0-0-exec = systemctl poweroff
+menu-0-1 =  Reboot
+menu-0-1-exec = systemctl reboot
+menu-0-2 =  Logout
+menu-0-2-exec = i3-msg exit
+
+[module/volume]
+type = internal/pulseaudio
+use-ui-max = true
+interval = 5 
+format-volume = <label-volume>
+label-volume = "Vol:%percentage%%"
+label-volume-foreground = ${colors.secondary}
+format-muted = <label-muted>
+label-muted = " muted"
+label-muted-foreground = ${colors.secondary}
+
+
+[module/space]
+type = custom/text
+content = "-"
+
+[module/localip]
+type = custom/script
+exec = /home/piadi/___script_vari_di_i3___/bash_scripts/localip.sh
+interval = 5
+label = " %output%"
+
+
+[module/ssd]
+type = custom/script
+exec = /home/piadi/___script_vari_di_i3___/bash_scripts/ssd_usage.sh
+interval = 30
+
+[module/now-playing]
+type = custom/script
+exec = /home/piadi/___script_vari_di_i3___/bash_scripts/now_playing.sh
+interval = 5
+tail = true
+
+

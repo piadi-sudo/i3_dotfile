@@ -1,0 +1,28 @@
+include ~/.cache/wal/colors-kitty.conf
+
+# Font principale (Iosevka Nerd Font)
+font_family      JetBrains Mono Nerd Font complete
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+# Dimensione del font
+font_size 12.0
+
+# # Colore di sfondo (nero)
+# background #000000
+
+# # Colore del testo (grigio scuro)
+# foreground #00FF00
+# #bianoco 111111
+
+# Trasparenza dello sfondo (disabilitata)
+background_opacity 1.0
+
+disable_ligatures never
+
+# Shell
+shell zsh
+
+
+

@@ -1,0 +1,82 @@
+ # backend = "glx";               # backend veloce per effetti
+# # vsync = true;                  # evita tearing
+# #
+# # # Trasparenza globale
+# # inactive-opacity = 0.9;
+# # frame-opacity = 0.9;
+# # inactive-opacity-override = false;
+# #
+# # # Ombre
+# # shadow = true;
+# # shadow-radius = 12;
+# # shadow-opacity = 0.5;
+# #
+# # # Blur (effetto sfocatura dietro le finestre trasparenti)
+# # blur:
+# #   method = "dual_kawase";
+# #   strength = 10;
+# #
+# # # Non applicare trasparenza a finestre fullscreen
+# # unredir-if-possible = true;
+#
+#
+# backend = "glx";               # backend veloce per effetti
+# vsync = true;                  # evita tearing
+#
+# # Trasparenza globale
+# inactive-opacity = 0.9;
+# frame-opacity = 0.9;
+# inactive-opacity-override = false;
+#
+# # Ombre
+# shadow = true;
+# shadow-radius = 12;
+# shadow-opacity = 0.5;
+#
+# # Blur (effetto sfocatura dietro le finestre trasparenti)
+# blur:
+#   method = "dual_kawase";
+#   strength = 10;
+# blur-background = true;
+# blur-background-frame = true;
+#
+# # Non applicare trasparenza a finestre fullscreen
+# unredir-if-possible = true;
+
+
+
+#-----------------------------
+
+# Backend e vsync
+backend = "glx";
+vsync = true;
+
+# Trasparenza globale
+inactive-opacity = 1;
+frame-opacity = 0.8;
+inactive-opacity-override = false;
+
+# Ombre
+shadow = true;
+shadow-radius = 12;
+shadow-opacity = 0.5;
+
+# Blur (solo finestre trasparenti)
+blur-method = "dual_kawase";
+blur-strength = 10;
+blur-background = true;
+blur-background-frame = true;
+
+# Opacità specifica per Kitty
+opacity-rule = [
+    "85:class_g = 'kitty'"
+];
+
+# Fading
+fading = true;
+
+# Non applicare trasparenza a finestre fullscreen
+unredir-if-possible = true;
+
+
+
