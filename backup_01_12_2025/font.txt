@@ -1,0 +1,60 @@
+[piadi@ubuntu ~]$ cd ~/.local/share/fonts                                                   
+[piadi@ubuntu fonts]$ ls                                                                    
+ComicMono-Bold.ttf                      MesloLGMNerdFont-Bold.ttf
+ComicMono-Bold.ttf.1                    MesloLGMNerdFont-Italic.ttf
+ComicMono.ttf                           MesloLGMNerdFontMono-BoldItalic.ttf
+fantasque_sans_mono.ttf                 MesloLGMNerdFontMono-Bold.ttf
+feather.ttf                             MesloLGMNerdFontMono-Italic.ttf
+FiraCode-Bold.ttf                       MesloLGMNerdFontMono-Regular.ttf
+FiraCode-Light.ttf                      MesloLGMNerdFontPropo-BoldItalic.ttf
+FiraCode-Medium.ttf                     MesloLGMNerdFontPropo-Bold.ttf
+FiraCode-Regular.ttf                    MesloLGMNerdFontPropo-Italic.ttf
+FiraCode-Retina.ttf                     MesloLGMNerdFontPropo-Regular.ttf
+FiraCode-SemiBold.ttf                   MesloLGMNerdFont-Regular.ttf
+FiraMonoNerdFont-Regular.otf            MesloLGSDZNerdFont-BoldItalic.ttf
+HackNerdFont-Regular.ttf                MesloLGSDZNerdFont-Bold.ttf
+iosevka_nerd_font.ttf                   MesloLGSDZNerdFont-Italic.ttf
+LICENCE-FAQ.txt                         MesloLGSDZNerdFontMono-BoldItalic.ttf
+LICENCE.txt                             MesloLGSDZNerdFontMono-Bold.ttf
+material_design_iconic_font.ttf         MesloLGSDZNerdFontMono-Italic.ttf
+MesloLGLDZNerdFont-BoldItalic.ttf       MesloLGSDZNerdFontMono-Regular.ttf
+MesloLGLDZNerdFont-Bold.ttf             MesloLGSDZNerdFontPropo-BoldItalic.ttf
+MesloLGLDZNerdFont-Italic.ttf           MesloLGSDZNerdFontPropo-Bold.ttf
+MesloLGLDZNerdFontMono-BoldItalic.ttf   MesloLGSDZNerdFontPropo-Italic.ttf
+MesloLGLDZNerdFontMono-Bold.ttf         MesloLGSDZNerdFontPropo-Regular.ttf
+MesloLGLDZNerdFontMono-Italic.ttf       MesloLGSDZNerdFont-Regular.ttf
+MesloLGLDZNerdFontMono-Regular.ttf      MesloLGSNerdFont-BoldItalic.ttf
+MesloLGLDZNerdFontPropo-BoldItalic.ttf  MesloLGSNerdFont-Bold.ttf
+MesloLGLDZNerdFontPropo-Bold.ttf        MesloLGSNerdFont-Italic.ttf
+MesloLGLDZNerdFontPropo-Italic.ttf      MesloLGSNerdFontMono-BoldItalic.ttf
+MesloLGLDZNerdFontPropo-Regular.ttf     MesloLGSNerdFontMono-Bold.ttf
+MesloLGLDZNerdFont-Regular.ttf          MesloLGSNerdFontMono-Italic.ttf
+MesloLGLNerdFont-BoldItalic.ttf         MesloLGSNerdFontMono-Regular.ttf
+MesloLGLNerdFont-Bold.ttf               MesloLGSNerdFontPropo-BoldItalic.ttf
+MesloLGLNerdFont-Italic.ttf             MesloLGSNerdFontPropo-Bold.ttf
+MesloLGLNerdFontMono-BoldItalic.ttf     MesloLGSNerdFontPropo-Italic.ttf
+MesloLGLNerdFontMono-Bold.ttf           MesloLGSNerdFontPropo-Regular.ttf
+MesloLGLNerdFontMono-Italic.ttf         MesloLGSNerdFont-Regular.ttf
+MesloLGLNerdFontMono-Regular.ttf        panels
+MesloLGLNerdFontPropo-BoldItalic.ttf    README.md
+MesloLGLNerdFontPropo-Bold.ttf          terminus
+MesloLGLNerdFontPropo-Italic.ttf        UbuntuMonoNerdFont-BoldItalic.ttf
+MesloLGLNerdFontPropo-Regular.ttf       UbuntuMonoNerdFont-Bold.ttf
+MesloLGLNerdFont-Regular.ttf            UbuntuMonoNerdFont-Italic.ttf
+MesloLGMDZNerdFont-BoldItalic.ttf       UbuntuMonoNerdFontMono-BoldItalic.ttf
+MesloLGMDZNerdFont-Bold.ttf             UbuntuMonoNerdFontMono-Bold.ttf
+MesloLGMDZNerdFont-Italic.ttf           UbuntuMonoNerdFontMono-Italic.ttf
+MesloLGMDZNerdFontMono-BoldItalic.ttf   UbuntuMonoNerdFontMono-Regular.ttf
+MesloLGMDZNerdFontMono-Bold.ttf         UbuntuMonoNerdFontPropo-BoldItalic.ttf
+MesloLGMDZNerdFontMono-Italic.ttf       UbuntuMonoNerdFontPropo-Bold.ttf
+MesloLGMDZNerdFontMono-Regular.ttf      UbuntuMonoNerdFontPropo-Italic.ttf
+MesloLGMDZNerdFontPropo-BoldItalic.ttf  UbuntuMonoNerdFontPropo-Regular.ttf
+MesloLGMDZNerdFontPropo-Bold.ttf        UbuntuMonoNerdFont-Regular.ttf
+MesloLGMDZNerdFontPropo-Italic.ttf      UbuntuMono.zip
+MesloLGMDZNerdFontPropo-Regular.ttf     waffle.bdf
+MesloLGMDZNerdFont-Regular.ttf          windows-xp-tahoma.otf
+MesloLGMNerdFont-BoldItalic.ttf
+[piadi@ubuntu fonts]$         
+
+
+quello che mi piace é il cosmic mono
