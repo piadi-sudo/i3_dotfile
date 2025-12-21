@@ -1,0 +1,75 @@
+//   _   _ _   _ _ _ _
+//  | | | | | | | | | |
+//  | |_| | | | | | | |
+//  |  _  | |_| | | | |
+//  |_| |_|\___/|_|_|_|  UBUNTU
+//
+//  by Bina
+
+// execute with: fastfetch --colors-block-range-start 9 --colors-block-width 3
+
+{
+    "logo": "nixos",  // qui si imposta il logo di fastfetch
+
+    "modules": [
+        "break",
+        "break",
+        {
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "packages",
+            "format": "{} (apt)",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "33"
+        },
+        {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "33"
+        },
+        {
+            "type": "localip",
+            "key": "🖧 ",
+            "keyColor": "33"
+        },
+        "break",
+        "colors",
+        "break",
+        "break"
+    ]
+}
+
+
