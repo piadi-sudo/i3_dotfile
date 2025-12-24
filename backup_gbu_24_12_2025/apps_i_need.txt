@@ -1,0 +1,31 @@
+discord
+
+firefox,brave,librewolf
+
+thunar (filemenager)
+
+ranger,cava,htop,btop,ff,nf
+
+localsend
+
+obs, droidcam
+
+vbox
+
+kitty,konsole
+
+spotify
+
+vscodium ,dotnet
+
+telegram
+
+solar
+
+anydesk
+
+libre office
+
+lm studio
+
+
