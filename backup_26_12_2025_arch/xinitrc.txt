@@ -1,0 +1,9 @@
+#! /bin/sh
+
+# Disabilita DPMS e il salvaschermo
+xset -dpms
+xset s off
+
+# Avvia i3
+exec i3
+

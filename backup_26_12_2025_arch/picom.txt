@@ -1,0 +1,30 @@
+backend = "glx";
+vsync = true;
+use-damage = true;
+
+unredir-if-possible = false;
+refresh-rate = 165;
+
+# Ombre leggere
+shadow = true;
+shadow-radius = 6;
+shadow-opacity = 0.35;
+
+# Blur leggero
+blur-method = "dual_kawase";
+blur-strength = 4;
+blur-background = true;
+blur-background-frame = false;
+
+# Animazioni SOLO fading leggero
+fading = true;
+fade-in-step = 0.03;
+fade-out-step = 0.03;
+
+inactive-opacity = 1.0;
+
+opacity-rule = [
+  "100:class_g = 'kitty'"
+];
+
+
