@@ -1,0 +1,158 @@
+##############################################
+# Picom Configuration - Tiling WM (i3 / Ragnar)
+##############################################
+
+###############
+# Backend
+###############
+
+backend = "glx";
+vsync = true;
+
+glx-no-stencil = true;
+glx-no-rebind-pixmap = true;
+use-damage = true;
+
+unredir-if-possible = true;
+xrender-sync = true;
+xrender-sync-fence = true;
+
+###############
+# Shadows
+###############
+
+shadow = true;
+shadow-radius = 12;
+shadow-offset-x = -8;
+shadow-offset-y = -8;
+shadow-opacity = 0.25;
+
+shadow-exclude = [
+  "class_g = 'Polybar'",
+  "class_g = 'flameshot'",
+  "window_type = 'dock'"
+];
+
+###############
+# Rounded Corners
+###############
+
+corner-radius = 12;
+round-borders = 1;
+detect-rounded-corners = true;
+
+rounded-corners-exclude = [
+  "class_g = 'Polybar'",
+  "class_g = 'flameshot'",
+  "window_type = 'dock'"
+];
+
+###############
+# Fading
+###############
+
+fading = true;
+fade-in-step = 0.03;
+fade-out-step = 0.03;
+
+###############
+# Opacity
+###############
+
+detect-client-opacity = true;
+detect-transient = true;
+
+opacity-rule = [
+  "90:class_g = 'kitty'",
+  "100:class_g = 'Rofi'"
+];
+
+###############
+# Blur (dual_kawase)
+###############
+
+blur-background = true;
+blur-background-frame = true;
+blur-background-fixed = true;
+
+blur: {
+  method = "dual_kawase";
+  strength = 8;
+  deviation = 1.0;
+};
+
+blur-background-exclude = [
+  "class_g = 'Polybar'",
+  "class_g = 'Rofi'",
+  "class_g = 'dmenu'",
+  "class_g = 'flameshot'",
+  "window_type = 'dock'"
+];
+
+###############
+# Window Types
+###############
+
+wintypes:
+{
+  dock = { shadow = false; };
+  dnd = { shadow = false; };
+  popup_menu = { opacity = 1.0; };
+  dropdown_menu = { opacity = 1.0; };
+};
+
+###############
+# Animations
+# (picom v12.x compatible)
+###############
+
+animations = (
+  {
+    triggers = ["close", "hide"];
+    opacity = {
+      curve = "linear";
+      duration = 0.1;
+      start = "window-raw-opacity-before";
+      end = 0;
+    };
+  },
+  {
+    triggers = ["open", "show"];
+    opacity = {
+      curve = "cubic-bezier(0,1,1,1)";
+      duration = 0.3;
+      start = 0;
+      end = "window-raw-opacity";
+    };
+    scale-x = {
+      curve = "cubic-bezier(0,1.3,1,1)";
+      duration = 0.3;
+      start = 0.6;
+      end = 1;
+    };
+    scale-y = "scale-x";
+  },
+  {
+    triggers = ["geometry"];
+    scale-x = {
+      curve = "cubic-bezier(0,0,0,1.28)";
+      duration = 0.22;
+      start = "window-width-before / window-width";
+      end = 1;
+    };
+    scale-y = {
+      curve = "cubic-bezier(0,0,0,1.28)";
+      duration = 0.22;
+      start = "window-height-before / window-height";
+      end = 1;
+    };
+  }
+);
+
+###############
+# Logging
+###############
+
+log-level = "warn";
+
+
