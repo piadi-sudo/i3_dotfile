@@ -8,9 +8,9 @@ I’ve included a few screenshots below to showcase my setup.
 
 ## Screenshots
 
-![Screenshot 1](img/screen_1.png)
+![Screenshot 1](img/arch_conf_2.png)
 
-![Screenshot 2](img/screen_2.png)
+![Screenshot 2](img/arch_conf.png)
 
 ---
 
