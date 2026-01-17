@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Disabilita DPMS e il salvaschermo
+xset -dpms
+xset s off
+
+# forza il cursore per tutta la root window
+# xrdb -merge ~/.Xresources
+# xsetroot -cursor_name left_ptr
+
+
+# Avvia i3
+exec i3
+
+

@@ -1,0 +1,6 @@
+zathura
+flameshot
+ranger
+viewnior
+
+filemanager

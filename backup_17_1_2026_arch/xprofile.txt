@@ -1,0 +1,6 @@
+# Disabilita DPMS (Display Power Management Signaling)
+xset -dpms
+# Disabilita il salvaschermo
+xset s off
+
+
